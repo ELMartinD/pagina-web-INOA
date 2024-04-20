@@ -1,6 +1,13 @@
 .navegacion {
+    width: 50%;
+    background-color: rgb(235 235 235);
+    text-align: left;
+}
+
+.navegacion2 {
     width: 100%;
-    background-color: rgb(255 255 255);
+    background-color: rgb(235 235 235);
+    text-align: right;
 }
 
 p.item {
@@ -12,9 +19,16 @@ p.item {
 }
 
 .item {
+    display: inline-block; 
+    color: white;
+    margin: 1%;
+}
+
+.item2 {
     display: inline-block;
     color: white;
     margin: 1%;
+    text-align: right;
 }
 
 .portada{
@@ -80,3 +94,4 @@ body{
     border: 0px;
     text-align: center;
 }
+
