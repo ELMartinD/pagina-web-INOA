@@ -134,6 +134,50 @@ a.comprar {
     display: block;
 }
 
+h2.ayudarte {
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-weight: 1000;
+    display: block;
+}
+
+.ayuda {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    width: 26%;
+    margin: 1%;
+    text-align: center;
+    max-width: 20%;
+    padding: 1%;
+}
+
+.ayudaa {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    width: 19%;
+    margin: 1%;
+    text-align: center;
+    max-width: 16%;
+    padding: 1%;
+}
+
+p.preguntas {
+    font-family: "Nunito", sans-serif;
+    font-weight: 1000;
+}
+
+p.preguntastexto {
+    font-family: "Nunito", sans-serif;
+    font-weight: 1000;
+    font-size: 68%;
+}
+
+a.preguntas {
+    font-family: "Nunito", sans-serif;
+    font-weight: 1000;
+}
+
+
 @media screen and (max-width: 480px) {
 
     .navegacion {
@@ -251,6 +295,40 @@ a.comprar {
         border-radius: 3%;
         background-color: rgb(255, 255, 255);
         padding: 0%;
+    }
+
+    h2.ayudarte {
+        text-align: center;
+        font-family: "Nunito", sans-serif;
+        font-weight: 1000;
+        display: block;
+    }
+    
+    .ayuda {
+        display: inline-block;
+        background-color: rgb(255, 255, 255);
+        width: 26%;
+        margin: 1%;
+        max-width: 20%;
+        padding: 13%;
+    }
+    
+    p.preguntas {
+        font-family: "Nunito", sans-serif;
+        font-weight: 1000;
+        font-size: 78%;
+    }
+    
+    p.preguntastexto {
+        font-family: "Nunito", sans-serif;
+        font-weight: 1000;
+        font-size: 50%;
+        max-width: 100%;
+    }
+    
+    a.preguntas {
+        font-family: "Nunito", sans-serif;
+        font-weight: 1000;
     }
     
 }
