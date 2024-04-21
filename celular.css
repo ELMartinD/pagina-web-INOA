@@ -6,6 +6,10 @@ a.carrito {
     width: 10%;
 }
 
+html {
+    background-color: black;
+}
+
 .celular{
     font-family: "Nunito", sans-serif;
     font-weight: 1000;
@@ -409,6 +413,10 @@ a.comprar {
         font-weight: 1000;
         flex-direction: column;
         font-size: 50%;
+    }
+
+    html {
+        background-color: black;
     }
 
 }
