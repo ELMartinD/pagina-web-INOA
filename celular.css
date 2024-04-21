@@ -209,7 +209,7 @@ a.comprar {
 
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 412px) {
 
     
 
@@ -219,11 +219,14 @@ a.comprar {
         color: white;
         padding: 1%;
         width: 10%;
+        margin-left: 10%;
     }
     
-    .celular{
+    .celular {
         font-family: "Nunito", sans-serif;
-        font-weight: 1000;
+        font-weight: 900;
+        margin-left: -10%;
+        font-size: 132%;
     }
     
     .seccion{
@@ -334,15 +337,18 @@ a.comprar {
     .tituloo {
         font-family: "Nunito", sans-serif;
         font-weight: 1000;
-        padding-left: 5%;
+        padding-left: 2%;
+        font-size: 209%;
+        max-width: 100%;
     }
     
     li {
         padding-left: 2%;
+        max-width: 100%;
     }
     
     .imgTarjeta {
-        width: 94%;
+        width: 100%;
         margin-top: 2%;
     }
     
@@ -378,12 +384,12 @@ a.comprar {
     a.comprar {
         font-size: 210%;
         background-color: blue;
-        color: white;
-        padding: 5%;
-        margin-top: -31%;
+        color: black;
+        padding: 0%;
+        margin-top: -34%;
         display: flow;
-        width: 49%;
-        margin-left: 136%;
+        width: 0%;
+        margin-left: 25%;
     }
     
     .titulo {
