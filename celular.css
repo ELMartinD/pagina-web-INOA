@@ -17,8 +17,8 @@ a.carrito {
     font-weight: 1000;
 }
 
-.galeria{
-    background-color: rgb(235 235 235);
+.galeria {
+    background-color: rgb(255 255 255);
     display: flex;
     font-family: "Nunito", sans-serif;
     font-weight: 1000;
@@ -32,7 +32,7 @@ a.carrito {
 }
 
 .precios {
-    background-color: rgba(0, 255, 213, 0.541);
+    background-color: rgb(252 247 194);
     display: block;
     font-family: "Nunito", sans-serif;
     font-weight: 1000;
@@ -186,6 +186,8 @@ a.comprar {
     padding-left: 10%;
     font-family: "Nunito", sans-serif;
     font-weight: 1000;
+    margin-top: -1%;
+    margin-left: -1%;
 }
 
 .precio {
@@ -196,8 +198,8 @@ a.comprar {
     font-weight: 1000;
     flex-direction: column;
     font-size: 50%;
+    margin-top: 0.5%;
 }
-
 
 
 
@@ -257,6 +259,14 @@ a.comprar {
         font-weight: 1000;
         flex-direction: column;
         font-size: 50%;
+    }
+
+    .precios {
+        background-color: rgb(252 247 194);
+        display: block;
+        font-family: "Nunito", sans-serif;
+        font-weight: 1000;
+        padding: 1%;
     }
     
     .contenido{
