@@ -5,7 +5,6 @@
 }
 
 a.item {
-    background-color: #00000030;
     font-family: "Nunito", sans-serif;
     font-weight: 1000;
     color: black;
@@ -13,11 +12,11 @@ a.item {
 }
 
 p.item {
-    background-color: #00000030;
     font-family: "Nunito", sans-serif;
     font-weight: 1000;
     color: black;
     font-size: 100%;
+    padding: 0%;
 }
 
 .item {
@@ -188,7 +187,6 @@ a.preguntas {
     
     
     p.item {
-        background-color: #00000030;
         font-family: "Nunito", sans-serif;
         font-weight: 1000;
         color: black;
