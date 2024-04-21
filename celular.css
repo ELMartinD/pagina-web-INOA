@@ -420,7 +420,7 @@ a.comprar {
     .precio {
         display: flex;
         color: white;
-        padding-left: 7%;
+        padding-left: 20%;
         font-family: "Nunito", sans-serif;
         font-weight: 1000;
         flex-direction: column;
