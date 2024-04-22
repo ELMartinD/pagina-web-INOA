@@ -299,34 +299,35 @@ a.preguntas {
         font-family: "Nunito", sans-serif;
         font-weight: 1000;
         display: block;
+        width: 100%;
     }
     
     .ayuda {
         display: inline-block;
         background-color: rgb(255, 255, 255);
-        width: 26%;
+        width: 41%;
         margin: 1%;
-        max-width: 20%;
-        padding: 14%;
-        margin-left: 25%;
+        max-width: 41%;
+        padding: 10%;
+        margin-left: 21%;
     }
     
     p.preguntas {
         font-family: "Nunito", sans-serif;
         font-weight: 1000;
-        font-size: 88%;
+        font-size: 150%;
     }
     
     p.preguntastexto {
         font-family: "Nunito", sans-serif;
         font-weight: 1000;
-        font-size: 67%;
+        font-size: 79%;
     }
     
     a.preguntas {
         font-family: "Nunito", sans-serif;
         font-weight: 1000;
-        font-size: 42%;
+        font-size: 100%;
     }
     
 }
