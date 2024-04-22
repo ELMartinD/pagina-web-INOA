@@ -296,7 +296,6 @@ a.preguntas {
     }
 
     h2.ayudarte {
-        text-align: center;
         font-family: "Nunito", sans-serif;
         font-weight: 1000;
         display: block;
@@ -308,20 +307,20 @@ a.preguntas {
         width: 26%;
         margin: 1%;
         max-width: 20%;
-        padding: 13%;
+        padding: 14%;
+        margin-left: 25%;
     }
     
     p.preguntas {
         font-family: "Nunito", sans-serif;
         font-weight: 1000;
-        font-size: 78%;
+        font-size: 88%;
     }
     
     p.preguntastexto {
         font-family: "Nunito", sans-serif;
         font-weight: 1000;
-        font-size: 50%;
-        max-width: 100%;
+        font-size: 67%;
     }
     
     a.preguntas {
