@@ -390,12 +390,12 @@ footer.footerr {
         width: 80%;
         padding: 3%;
         max-height: 0%;
-        border-top: 1px solid #aaaaaa;
         border-right: 1px solid #aaaaaa;
-        border-bottom: 1px solid #aaaaaa;
+        border-bottom: 0px solid #aaaaaa;
         margin-left: 7%;
         font-family: "Nunito", sans-serif;
         font-weight: 1000;
+        margin-top: 8%;
     }
 
     .creditos {
@@ -405,9 +405,10 @@ footer.footerr {
         padding: 0%;
         max-height: 0%;
         border-right: 1px solid #aaaaaa;
-        border-bottom: 1px solid #aaaaaa;
+        border-bottom: 0px solid #aaaaaa;
         font-family: "Nunito", sans-serif;
         font-weight: 1000;
+        padding-bottom: 4%;
     }
 
     .creditoss {
