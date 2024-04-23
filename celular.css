@@ -4,7 +4,9 @@ a.carrito {
     color: white;
     padding: 1%;
     width: 10%;
+    text-decoration: none;
 }
+
 
 .celular{
     font-family: "Nunito", sans-serif;
@@ -177,6 +179,7 @@ a.comprar {
     display: flow;
     width: 49%;
     margin-left: 136%;
+    text-decoration: none;
 }
 
 .titulo {

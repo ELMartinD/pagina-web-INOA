@@ -134,6 +134,7 @@ a.comprar {
     width: 94%;
     height: 100%;
     display: block;
+    text-decoration: none;
 }
 
 h2.ayudarte {
@@ -166,6 +167,7 @@ h2.ayudarte {
 p.preguntas {
     font-family: "Nunito", sans-serif;
     font-weight: 1000;
+    text-decoration: none;
 }
 
 p.preguntastexto {
