@@ -9,7 +9,10 @@ a.item {
     font-weight: 1000;
     color: black;
     font-size: 100%;
+    text-decoration: none;
 }
+
+
 
 p.item {
     font-family: "Nunito", sans-serif;
