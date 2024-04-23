@@ -1,18 +1,28 @@
+
 .navegacion {
     width: 100%;
     background-color: rgb(235 235 235);
     text-align: left;
 }
 
+h1 {
+    font-size: 150%;
+}
+
 a.item {
     font-family: "Nunito", sans-serif;
     font-weight: 1000;
-    color: black;
-    font-size: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 115%;
     text-decoration: none;
+    transition: 0.4s;
+    background: rgb(235 235 235);
 }
 
-
+a.item:hover{
+    color: white;
+    background: black;
+}
 
 p.item {
     font-family: "Nunito", sans-serif;
@@ -46,6 +56,13 @@ p.item {
     width: 50%;
     margin-left: 25%;
     margin-top: 5%;
+    transition: 0.8s;
+}
+
+.imgTarjeta:hover{
+    height: 70%;
+    width: 60%;
+
 }
 
 .padreTarjeta {
@@ -128,13 +145,21 @@ a.comprar {
     padding: 3%;
     font-family: "Nunito", sans-serif;
     font-weight: 1000;
-    background-color: #FFEB3B;
+    background-color: #ffe718;
     font-size: 100%;
     border: 0px;
     width: 94%;
     height: 100%;
     display: block;
     text-decoration: none;
+    transition: 0.4s;
+    color: black;
+}
+
+a.comprar:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+
 }
 
 h2.ayudarte {
@@ -147,11 +172,11 @@ h2.ayudarte {
 .ayuda {
     display: inline-block;
     background-color: rgb(255, 255, 255);
-    width: 26%;
+    width: 16%;
     margin: 1%;
     text-align: center;
     max-width: 20%;
-    padding: 1%;
+    padding: 3%;
 }
 
 .ayudaa {
@@ -179,6 +204,16 @@ p.preguntastexto {
 a.preguntas {
     font-family: "Nunito", sans-serif;
     font-weight: 1000;
+    padding: 3px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    transition: 0.4s;
+}
+
+a.preguntas:hover {
+    background-color: black;
+    color: white;
 }
 
 footer.footerr {
@@ -202,13 +237,13 @@ footer.footerr {
 
 .creditosos {
     display: inline-grid;
-    width: 17%;
+    width: 23%;
     padding: 3%;
     max-height: 0%;
     border-top: 1px solid #aaaaaa;
     border-right: 1px solid #aaaaaa;
     border-bottom: 1px solid #aaaaaa;
-    margin-left: 7%;
+    margin-left: 3%;
     font-family: "Nunito", sans-serif;
     font-weight: 1000;
 }
