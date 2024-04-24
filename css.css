@@ -1,3 +1,107 @@
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+img {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-fill-mode: both;
+    animation-range: entry 25% cover 50%;
+} 
+
+.productos {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-fill-mode: both;
+    animation-range: entry 25% cover 50%;
+} 
+
+
+.padreTarjeta {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-fill-mode: both;
+    animation-range: entry 25% cover 50%;
+} 
+
+
+.ayuda {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-fill-mode: both;
+    animation-range: entry 25% cover 50%;
+} 
+
+h2.ayudarte {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-fill-mode: both;
+    animation-range: entry 25% cover 50%;
+} 
+
+.creditos {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-fill-mode: both;
+    animation-range: entry 25% cover 50%;
+} 
+
+.creditoss {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-fill-mode: both;
+    animation-range: entry 25% cover 50%;
+} 
+
+.creditosos {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-fill-mode: both;
+    animation-range: entry 25% cover 50%;
+} 
+
+
+
 
 video.video {
     width: 100%;
