@@ -506,11 +506,11 @@ footer.footerr {
     .ayuda {
         display: inline-block;
         background-color: rgb(255, 255, 255);
-        width: 41%;
+        width: 80%;
         margin: 1%;
-        max-width: 41%;
-        padding: 10%;
-        margin-left: 21%;
+        max-width: 100%;
+        padding: 9%;
+        margin-left: 2%;
     }
     
     p.preguntas {
@@ -620,6 +620,7 @@ footer.footerr {
             font-weight: 1000;
             margin-left: 1.6%;
             margin-top: 5.1px;
+            border-top: 0px;
         }
 
         
