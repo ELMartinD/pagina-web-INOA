@@ -588,7 +588,7 @@ footer.footerr {
     
 }
 
-@media screen and (max-width: 914px) {
+@media screen and (max-height: 914px) {
 
     .ofertasas {
         width: 28%;
@@ -671,7 +671,7 @@ footer.footerr {
 
 }
 
-@media screen and (max-width: 823px) {
+@media screen and (max-height: 823px) {
 
     li {
         font-size: 74%;
