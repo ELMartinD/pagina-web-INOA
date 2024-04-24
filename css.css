@@ -576,7 +576,7 @@ footer.footerr {
 }
 
 
-@media screen and (max-height: 823px) {
+@media screen and (min-height: 823px) {
 
     li {
         font-size: 74%;
@@ -616,7 +616,6 @@ footer.footerr {
             width: 53%;
             padding: 3%;
             max-height: 0%;
-            border-top: 1px solid #aaaaaa;
             border-bottom: 1px solid #aaaaaa;
             font-family: "Nunito", sans-serif;
             font-weight: 1000;
@@ -626,7 +625,7 @@ footer.footerr {
         }
 
         .ofertasas {
-            width: 28%;
+            width: 44%;
             height: 20%;
             display: inline-block;
             margin: 2.3%;
@@ -638,10 +637,10 @@ footer.footerr {
         .ayuda {
             display: inline-block;
             background-color: rgb(255, 255, 255);
-            width: 41%;
-            margin: 1%;
+            width: 100%;
+            margin: 2%;
             text-align: center;
-            max-width: 71%;
+            max-width: 100%;
             padding: 3%;
         }
         
