@@ -602,7 +602,7 @@ footer.footerr {
 
     .creditosos {
         display: inline-grid;
-        width: 34%;
+        width: 90%;
         padding: 3%;
         max-height: 0%;
         border-top: 1px solid #aaaaaa;
@@ -661,13 +661,25 @@ footer.footerr {
     .ayuda {
         display: inline-table;
         background-color: rgb(255, 255, 255);
-        width: 23%;
+        width: 88%;
         margin: 1%;
         text-align: center;
-        max-width: 23%;
         padding: 3%;
         margin-left: 3%;
+        max-width: 100%;
     }
+
+    .ofertasas {
+        width: 44%;
+        height: 20%;
+        display: inline-block;
+        margin: 2.3%;
+        border-radius: 3%;
+        background-color: rgb(255, 255, 255);
+        padding: 0%;
+    }
+
+    
 
 }
 
@@ -678,21 +690,22 @@ footer.footerr {
     }
         
     .creditos {
-            display: inline-grid;
-            margin: -1%;
-            width: 20%;
-            padding: 3%;
-            max-height: 0%;
-            border-top: 1px solid #aaaaaa;
-            border-right: 1px solid #aaaaaa;
-            border-bottom: 1px solid #aaaaaa;
-            font-family: "Nunito", sans-serif;
-            font-weight: 1000;
-        }
+        display: inline-grid;
+        margin: -1.6%;
+        width: 43%;
+        padding: 3%;
+        max-height: 0%;
+        border-top: 1px solid #aaaaaa;
+        border-right: 1px solid #aaaaaa;
+        border-bottom: 1px solid #aaaaaa;
+        font-family: "Nunito", sans-serif;
+        font-weight: 1000;
+        margin-left: 1%;
+    }
 
         .creditosos {
             display: inline-grid;
-            width: 38%;
+            width: 92%;
             padding: 3%;
             max-height: 0%;
             border-top: 1px solid #aaaaaa;
@@ -702,6 +715,7 @@ footer.footerr {
             font-family: "Nunito", sans-serif;
             font-weight: 1000;
         }
+    
 
         .creditoss {
             display: inline-grid;
@@ -718,3 +732,5 @@ footer.footerr {
 
         
 }
+
+
