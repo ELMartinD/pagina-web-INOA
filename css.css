@@ -569,6 +569,8 @@ footer.footerr {
         border-right: 1px solid #aaaaaa;
         margin-top: 0%;
     }
+
+    
     
     
 }
@@ -622,6 +624,29 @@ footer.footerr {
             margin-top: 5.1px;
             border-top: 0px;
         }
+
+        .ofertasas {
+            width: 28%;
+            height: 20%;
+            display: inline-block;
+            margin: 2.3%;
+            border-radius: 3%;
+            background-color: rgb(255, 255, 255);
+            padding: 0%;
+        }
+
+        .ayuda {
+            display: inline-block;
+            background-color: rgb(255, 255, 255);
+            width: 41%;
+            margin: 1%;
+            text-align: center;
+            max-width: 71%;
+            padding: 3%;
+        }
+        
+
+        
 
         
 }
