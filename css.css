@@ -588,3 +588,85 @@ footer.footerr {
     
 }
 
+@media screen and (max-width: 914px) {
+
+    .ofertasas {
+        width: 28%;
+        height: 20%;
+        display: inline-block;
+        margin: 2.3%;
+        border-radius: 3%;
+        background-color: rgb(255, 255, 255);
+        padding: 0%;
+    }
+
+    .creditosos {
+        display: inline-grid;
+        width: 34%;
+        padding: 3%;
+        max-height: 0%;
+        border-top: 1px solid #aaaaaa;
+        border-right: 1px solid #aaaaaa;
+        border-bottom: 1px solid #aaaaaa;
+        margin-left: 3%;
+        font-family: "Nunito", sans-serif;
+        font-weight: 1000;
+    }
+
+    .creditos {
+        display: inline-grid;
+        margin: -1%;
+        width: 23%;
+        padding: 3%;
+        max-height: 0%;
+        border-top: 1px solid #aaaaaa;
+        border-right: 1px solid #aaaaaa;
+        border-bottom: 1px solid #aaaaaa;
+        font-family: "Nunito", sans-serif;
+        font-weight: 1000;
+    }
+
+    .creditoss {
+        display: inline-grid;
+        width: 18%;
+        padding: 3%;
+        max-height: 0%;
+        border-top: 1px solid #aaaaaa;
+        border-bottom: 1px solid #aaaaaa;
+        font-family: "Nunito", sans-serif;
+        font-weight: 1000;
+        margin-left: 2.6%;
+        margin-top: -6px;
+    }
+
+    .parrafo {
+        text-align: center;
+        color: black;
+        font-size: 144%;
+        font-family: "Nunito", sans-serif;
+        font-weight: 1000;
+    }
+    
+    a.preguntas {
+        font-family: "Nunito", sans-serif;
+        font-weight: 1000;
+        padding: 3px;
+        text-decoration: none;
+        color: black;
+        border: 2px solid black;
+        transition: 0.4s;
+        display: block;
+    }
+
+    .ayuda {
+        display: inline-table;
+        background-color: rgb(255, 255, 255);
+        width: 23%;
+        margin: 1%;
+        text-align: center;
+        max-width: 23%;
+        padding: 3%;
+        margin-left: 3%;
+    }
+
+}

@@ -440,3 +440,15 @@ a.comprar {
         font-size: 50%;
     }
 }
+
+@media screen and (max-width: 914px) {
+
+        .imgTarjeta {
+            width: 26%;
+            margin-left: 2%;
+            margin-right: 1%;
+            margin-top: 1%;
+            height: 0%;
+    }
+
+}
