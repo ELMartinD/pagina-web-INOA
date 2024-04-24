@@ -478,4 +478,27 @@ a.comprar {
         margin-left: 1%;
     }
 
+    a.comprar {
+        font-size: 210%;
+        background-color: blue;
+        color: white;
+        padding: 5%;
+        margin-top: -31%;
+        display: flow;
+        width: 49%;
+        margin-left: 113%;
+        text-decoration: none;
+    }
+
+    .precio {
+        display: flex;
+        color: white;
+        padding-left: 39%;
+        font-family: "Nunito", sans-serif;
+        font-weight: 1000;
+        flex-direction: column;
+        font-size: 50%;
+        margin-top: 0.5%;
+    }
+
 }
