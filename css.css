@@ -67,38 +67,6 @@ h2.ayudarte {
     animation-range: entry 25% cover 50%;
 } 
 
-.creditos {
-    view-timeline-name: --image;
-    view-timeline-axis: block;
-
-    animation-timeline: --image;
-    animation-name: show;
-
-    animation-fill-mode: both;
-    animation-range: entry 25% cover 50%;
-} 
-
-.creditoss {
-    view-timeline-name: --image;
-    view-timeline-axis: block;
-
-    animation-timeline: --image;
-    animation-name: show;
-
-    animation-fill-mode: both;
-    animation-range: entry 25% cover 50%;
-} 
-
-.creditosos {
-    view-timeline-name: --image;
-    view-timeline-axis: block;
-
-    animation-timeline: --image;
-    animation-name: show;
-
-    animation-fill-mode: both;
-    animation-range: entry 25% cover 50%;
-} 
 
 .ofertasas {
     view-timeline-name: --image;
@@ -110,6 +78,8 @@ h2.ayudarte {
     animation-fill-mode: both;
     animation-range: entry 25% cover 50%;
 } 
+
+
 
 
 
@@ -714,6 +684,7 @@ footer.footerr {
         font-family: "Nunito", sans-serif;
         font-weight: 1000;
         margin-left: 1%;
+        margin-top: -0.1%;
     }
 
         .creditosos {
@@ -732,15 +703,15 @@ footer.footerr {
 
         .creditoss {
             display: inline-grid;
-            width: 18%;
+            width: 53%;
             padding: 3%;
             max-height: 0%;
             border-top: 1px solid #aaaaaa;
             border-bottom: 1px solid #aaaaaa;
             font-family: "Nunito", sans-serif;
             font-weight: 1000;
-            margin-left: 2.6%;
-            margin-top: -8px;
+            margin-left: 1.6%;
+            margin-top: 5.1px;
         }
 
         
