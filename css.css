@@ -100,6 +100,19 @@ h2.ayudarte {
     animation-range: entry 25% cover 50%;
 } 
 
+.ofertasas {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-fill-mode: both;
+    animation-range: entry 25% cover 50%;
+} 
+
+
+
 
 
 
