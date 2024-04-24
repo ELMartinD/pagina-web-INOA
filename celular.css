@@ -442,13 +442,40 @@ a.comprar {
 }
 
 @media screen and (max-width: 914px) {
+    .imgTarjeta {
+        width: 35%;
+        margin-left: 2%;
+        margin-right: 1%;
+        margin-top: 1%;
+        height: 0%;
+    }
+}
 
-        .imgTarjeta {
-            width: 26%;
-            margin-left: 2%;
-            margin-right: 1%;
-            margin-top: 1%;
-            height: 0%;
+@media screen and (max-width: 412px) {
+
+    .imgTarjeta {
+        width: 98%;
+        margin-left: 2%;
+        margin-right: 1%;
+        margin-top: 1%;
+        height: 0%;
+    }
+
+}
+
+@media screen and (max-height: 823px) {
+    .creditos {
+        display: inline-grid;
+        margin: -1.6%;
+        width: 43%;
+        padding: 3%;
+        max-height: 0%;
+        border-top: 1px solid #aaaaaa;
+        border-right: 1px solid #aaaaaa;
+        border-bottom: 1px solid #aaaaaa;
+        font-family: "Nunito", sans-serif;
+        font-weight: 1000;
+        margin-left: 1%;
     }
 
 }
