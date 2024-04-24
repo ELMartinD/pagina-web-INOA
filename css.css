@@ -132,6 +132,8 @@ a.item {
 a.item:hover{
     color: white;
     background: black;
+    padding: 10px;
+    border-radius: 10cm;
 }
 
 p.item {
@@ -270,13 +272,14 @@ a.comprar {
     height: 100%;
     display: block;
     text-decoration: none;
-    transition: 0.4s;
+    transition: 0.8s;
     color: black;
 }
 
 a.comprar:hover {
     background-color: rgb(0, 0, 0);
     color: white;
+    padding: 4%;
 
 }
 
