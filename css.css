@@ -328,7 +328,7 @@ footer.footerr {
 .creditos {
     display: inline-grid;
     margin: -1%;
-    width: 17%;
+    width: 16%;
     padding: 3%;
     max-height: 0%;
     border-top: 1px solid #aaaaaa;
@@ -336,7 +336,6 @@ footer.footerr {
     border-bottom: 1px solid #aaaaaa;
     font-family: "Nunito", sans-serif;
     font-weight: 1000;
-    
 }
 
 .creditosos {
@@ -347,23 +346,20 @@ footer.footerr {
     border-top: 1px solid #aaaaaa;
     border-right: 1px solid #aaaaaa;
     border-bottom: 1px solid #aaaaaa;
-    margin-left: 3%;
     font-family: "Nunito", sans-serif;
     font-weight: 1000;
+    margin-left: 5%;
 }
 
 .creditoss {
     display: inline-grid;
-    width: 53%;
+    width: 17%;
     padding: 3%;
     max-height: 0%;
     border-top: 1px solid #aaaaaa;
     border-bottom: 1px solid #aaaaaa;
     font-family: "Nunito", sans-serif;
     font-weight: 1000;
-    margin-left: 1.6%;
-    margin-top: 21.1px;
-    border-top-width: 0px;
 }
 
 
