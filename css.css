@@ -1,3 +1,49 @@
+.padre {
+    display: flex;
+    width: 90wv;
+    align-items: center;
+    padding: 5%;
+    flex-wrap:  wrap;
+    align-content: center;
+}
+
+.hijos {
+font-family: "Nunito", sans-serif;
+font-weight: 1000;
+}
+
+div#uno {
+    font-family: "Nunito", sans-serif;
+    font-weight: 1000;
+    border: 1px solid black;
+    padding: 2%;
+    margin-left: 8%;
+}
+
+div#dos {
+    font-family: "Nunito", sans-serif;
+font-weight: 1000;
+border: 1px solid black;
+padding: 2%;
+}
+
+div#tres {
+    font-family: "Nunito", sans-serif;
+font-weight: 1000;
+border: 1px solid black;
+padding: 2%;
+}
+
+div#cuatro {
+    font-family: "Nunito", sans-serif;
+font-weight: 1000;
+border: 1px solid black;
+padding: 2%;
+}
+
+
+
+
 @keyframes show {
     from {
         opacity: 0;
@@ -328,7 +374,7 @@ footer.footerr {
 .creditos {
     display: inline-grid;
     margin: -1%;
-    width: 16%;
+    width: 17%;
     padding: 3%;
     max-height: 0%;
     border-top: 1px solid #aaaaaa;
@@ -336,6 +382,7 @@ footer.footerr {
     border-bottom: 1px solid #aaaaaa;
     font-family: "Nunito", sans-serif;
     font-weight: 1000;
+    
 }
 
 .creditosos {
@@ -346,20 +393,23 @@ footer.footerr {
     border-top: 1px solid #aaaaaa;
     border-right: 1px solid #aaaaaa;
     border-bottom: 1px solid #aaaaaa;
+    margin-left: 3%;
     font-family: "Nunito", sans-serif;
     font-weight: 1000;
-    margin-left: 5%;
 }
 
 .creditoss {
     display: inline-grid;
-    width: 17%;
+    width: 53%;
     padding: 3%;
     max-height: 0%;
     border-top: 1px solid #aaaaaa;
     border-bottom: 1px solid #aaaaaa;
     font-family: "Nunito", sans-serif;
     font-weight: 1000;
+    margin-left: 1.6%;
+    margin-top: 21.1px;
+    border-top-width: 0px;
 }
 
 
@@ -574,6 +624,54 @@ footer.footerr {
 
 @media screen and (min-height: 823px) {
 
+
+    .padre {
+        display: flex;
+        width: 100wv;
+        align-items: center;
+        padding: 5%;
+        flex-wrap:  wrap;
+        align-content: center;
+    }
+    
+    .hijos {
+    font-family: "Nunito", sans-serif;
+    font-weight: 1000;
+    }
+    
+    div#uno {
+        font-family: "Nunito", sans-serif;
+        font-weight: 1000;
+        border: 1px solid black;
+        padding: 2%;
+        margin-left: 20%;
+
+    }
+    
+    div#dos {
+        font-family: "Nunito", sans-serif;
+    font-weight: 1000;
+    border: 1px solid black;
+    padding: 2%;
+    margin-left: 20%;
+    }
+    
+    div#tres {
+        font-family: "Nunito", sans-serif;
+    font-weight: 1000;
+    border: 1px solid black;
+    padding: 2%;
+    margin-left: 20%;
+    }
+    
+    div#cuatro {
+        font-family: "Nunito", sans-serif;
+    font-weight: 1000;
+    border: 1px solid black;
+    padding: 2%;
+    margin-left: 20%;
+    }
+
     li {
         font-size: 74%;
     }
@@ -643,6 +741,48 @@ footer.footerr {
 }
 
 @media screen and (max-width: 900px) {
+
+    .padre {
+        display: flex;
+        width: 90wv;
+        align-items: center;
+        padding: 5%;
+        flex-wrap:  wrap;
+        align-content: center;
+    }
+    
+    .hijos {
+    font-family: "Nunito", sans-serif;
+    font-weight: 1000;
+    }
+    
+    div#uno {
+        font-family: "Nunito", sans-serif;
+        font-weight: 1000;
+        border: 1px solid black;
+        padding: 2%;
+    }
+    
+    div#dos {
+        font-family: "Nunito", sans-serif;
+    font-weight: 1000;
+    border: 1px solid black;
+    padding: 2%;
+    }
+    
+    div#tres {
+        font-family: "Nunito", sans-serif;
+    font-weight: 1000;
+    border: 1px solid black;
+    padding: 2%;
+    }
+    
+    div#cuatro {
+        font-family: "Nunito", sans-serif;
+    font-weight: 1000;
+    border: 1px solid black;
+    padding: 2%;
+    }
 
     .ofertasas {
         width: 44%;
@@ -733,3 +873,29 @@ footer.footerr {
     
 
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+    width: 100%;
+    border-radius: 5cm;
+}
