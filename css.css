@@ -13,7 +13,8 @@
 }
 
 div#uno {
-    border: 1px solid #00000047;
+    border: 2px solid #00000047;
+    border-right: 0px solid;
     padding: 2%;
     width: 16%;
     margin: 0%;
@@ -21,21 +22,23 @@ div#uno {
 }
 
 div#dos {
-    border: 1px solid #00000047;
+    border: 2px solid #00000047;
+    border-right: 0px solid;
     padding: 2%;
     width: 16%;
     margin: 0%;
 }
 
 div#tres {
-    border: 1px solid #00000047;
+    border: 2px solid #00000047;
+    border-right: 0px solid;
     padding: 2%;
     width: 16%;
     margin: 0%;
 }
 
 div#cuatro {
-    border: 1px solid #00000047;
+    border: 2px solid #00000047;
     padding: 2%;
     width: 16%;
     margin: 0%;
@@ -73,11 +76,11 @@ p.textoo{
     max-width: 100%;
     padding: 3%;
     margin-top: 1%;
-    border-top: 1px solid #00000047;
+    border-top: 2px solid #00000047;
 }
 
 .footerpadre2 {
-    border-top: 1px solid #00000047;
+    border-top: 2px solid #00000047;
     display: flex;
     max-width: 100%;
     padding: 3%;
@@ -92,7 +95,7 @@ p.textoo{
 
 div#footer2 {
     margin-left: 1%;
-    border-left: 1px solid black;
+    border-left: 1px solid #00000047;
     padding-left: 1%;
 }
 
@@ -110,6 +113,39 @@ div#footer2 {
         scale: 100%;
     }
 }
+
+.padre {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-fill-mode: both;
+    animation-range: entry 25% cover 50%;
+} 
+
+.footerpadre {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-fill-mode: both;
+    animation-range: entry 25% cover 50%;
+} 
+
+.footerpadre2 {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-fill-mode: both;
+    animation-range: entry 0% cover 20%;
+} 
 
 img {
     view-timeline-name: --image;
@@ -672,21 +708,21 @@ footer.footerr {
     }
 
     div#uno {
-        border: 1px solid #00000047;
+        border: 2px solid #00000047;
         padding: 2%;
         margin: 0%;
         width: 100%;
     }
 
     div#dos {
-        border: 1px solid #00000047;
+        border: 2px solid #00000047;
         padding: 2%;
         margin: 0%;
         width: 100%;
     }
 
     div#tres {
-        border: 1px solid #00000047;
+        border: 2px solid #00000047;
         padding: 2%;
         margin: 0%;
         width: 100%;
@@ -697,8 +733,8 @@ footer.footerr {
         padding: 2%;
         margin: 0%;
         width: 100%;
-        border-left: 1px solid #00000047;
-        border-right: 1px solid #00000047;
+        border-left: 2px solid #00000047;
+        border-right: 2px solid #00000047;
     }
 
     .footerhijo {
@@ -707,7 +743,7 @@ footer.footerr {
 
     div#footer2 {
         margin-left: 1%;
-        border-left: 1px solid #00000047;
+        border-left: 2px solid #00000047;
         padding-left: 12%;
     }
 
@@ -726,21 +762,21 @@ footer.footerr {
 @media screen and (min-height: 823px) {
 
     div#uno {
-        border: 1px solid #00000047;
+        border: 2px solid #00000047;
         padding: 2%;
         margin: 0%;
         width: 100%;
     }
 
     div#dos {
-        border: 1px solid #00000047;
+        border: 2px solid #00000047;
         padding: 2%;
         margin: 0%;
         width: 100%;
     }
 
     div#tres {
-        border: 1px solid #00000047;
+        border: 2px solid #00000047;
         padding: 2%;
         margin: 0%;
         width: 100%;
@@ -751,8 +787,8 @@ footer.footerr {
         padding: 2%;
         margin: 0%;
         width: 100%;
-        border-left: 1px solid #00000047;
-        border-right: 1px solid #00000047;
+        border-left: 2px solid #00000047;
+        border-right: 2px solid #00000047;
     }
 
     .footerhijo {
@@ -761,7 +797,7 @@ footer.footerr {
 
     div#footer2 {
         margin-left: 1%;
-        border-left: 1px solid #00000047;
+        border-left: 2px solid #00000047;
         padding-left: 12%;
     }
 
