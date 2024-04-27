@@ -671,6 +671,52 @@ footer.footerr {
         margin-top: 0%;
     }
 
+    div#uno {
+        border: 1px solid black;
+        padding: 2%;
+        margin: 0%;
+        width: 100%;
+    }
+
+    div#dos {
+        border: 1px solid black;
+        padding: 2%;
+        margin: 0%;
+        width: 100%;
+    }
+
+    div#tres {
+        border: 1px solid black;
+        padding: 2%;
+        margin: 0%;
+        width: 100%;
+    }
+
+    div#cuatro {
+        border: 0px solid black;
+        padding: 2%;
+        margin: 0%;
+        width: 100%;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+
+    .footerhijo {
+        width: 100%;
+    }
+
+    div#footer2 {
+        margin-left: 1%;
+        border-left: 1px solid black;
+        padding-left: 12%;
+    }
+
+    p.textoo {
+        font-family: "Nunito", sans-serif;
+        font-weight: 700;
+        font-size: 60%;
+    }
+
     
     
     
