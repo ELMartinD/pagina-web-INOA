@@ -1,0 +1,336 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+.barra {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-fill-mode: both;
+    animation-range: entry 25% cover 50%;
+}
+
+.tarjetapadre {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-fill-mode: both;
+    animation-range: entry 25% cover 50%;
+}
+
+.presentacion{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-fill-mode: both;
+    animation-range: entry 25% cover 50%;
+}
+
+a.boton {
+    background-color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 6%;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    margin-top: 10%;
+    transition: 1s;
+}
+
+a.boton:hover{
+    background-color: black;
+    color: white;
+    padding: 8%;
+
+
+}
+
+.footer {
+    display: flex;
+    background-color: white;
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6%;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-size: 70%;
+    border-top: 2px solid black;
+}
+
+p.textofooter {
+    text-align: center;
+    text-align: center;
+    
+}
+
+.footerpadre {
+    background-color: #000000;
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-size: 70%;
+    align-items: center;
+    padding: 1%;
+    color: white;
+}
+
+
+.footer2 {
+    padding: 1%;
+    border-right: 2px solid rgb(255, 255, 255);
+}
+
+.footer3 {
+    padding: 2%;
+}
+
+
+.presentacion{
+    background-image: url(items/presentacion.jpg);
+    background-size: cover;
+    width: 100%;
+
+}
+
+h1.textopresentacion {
+    font-size: 500%;
+    padding: 10%;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 100px #000000, 0 0 100px #000000;
+}
+
+h2.textopresentacion{
+    font-size: 300%;
+    padding: 10%;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 100px #000000, 0 0 100px #000000;
+}
+
+
+nav.barranav{
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+
+a.textobarra {
+    color: white;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    width: 10%;
+    height: 20%;
+    margin-left: 4%;
+    font-size: 150%;
+    transition: 1s;
+}
+
+a.textobarra:hover{
+    font-size: 200%;
+}
+
+.iniciopadre{
+    max-width: 100%;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    background-color: white;
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    transition: 1s;
+}
+
+.iniciopadre:hover{
+    background-color: #6e00a9;
+}
+
+
+.iniciohijo{
+    max-width: 100%;
+    width: 70%;
+    padding: 2%;
+}
+
+.iniciohijo2{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: -4px;
+    justify-content: end;
+    align-items: end;
+    justify-items: end;
+}
+
+img.portada {
+    width: 100%;
+    transition: 1s;
+}
+
+img.portada:hover {
+    width: 100%;
+}
+
+img.portada:hover {
+    width: 100%;
+}
+
+
+h1.textoinicio{
+    font-size: 400%;
+    transition: 1s;
+}
+
+h1.textoinicio:hover{
+    font-size: 650%;
+}
+
+.tarjetapadre {
+    display: inline-flex;
+    background-color: #ff8a00b5;
+    justify-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    margin: 2%;
+    padding: 2.8%;
+    width: 15%;
+}
+
+h1.productotexto {
+    text-align: center;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-size: 100%;
+    padding-bottom: 10%;
+}
+
+h2.productoprecio{
+    display: inline-block;
+    text-align: start;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-size: 70%;
+    padding-bottom: 10%;
+    text-decoration: 2px solid line-through;
+}
+
+h2.productoprecio2{
+    margin-right: 5%;
+    display: inline-block;
+    text-align: end;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-size: 70%;
+}
+
+h2.productoprecio3{
+    display: inline-block;
+    text-align: end;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-size: 70%;
+}
+
+.tarjetahijo{
+    width: 100%;
+
+}
+
+img.producto{
+    width: 90%;
+    transition: 1s;
+}
+
+img.producto:hover{
+    width: 100%;
+}
+
+.barra {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2%;
+    margin-top: 2%;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    justify-items: center;
+    margin: 1%;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    h1.textoinicio {
+        font-size: 200%;
+        transition: 1s;
+    }
+
+    h1.textoinicio:hover {
+        font-size: 300%;
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    p.textofooter2 {
+        font-size: 85%;
+    }
+
+    .tarjetapadre {
+        display: inline-flex;
+        background-color: #ff8a00b5;
+        justify-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        margin: 2%;
+        padding: 2.8%;
+        width: 39%;
+    }
+}
