@@ -1,43 +1,99 @@
-
-
 .padre {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.hijos {
+    font-family: "Nunito", sans-serif;
+    font-weight: 1000;
+    width: 16%;
+    margin: 1%;
+}
+
+div#uno {
+    border: 1px solid black;
+    padding: 2%;
+    width: 16%;
+    margin: 0%;
+    
+}
+
+div#dos {
+    border: 1px solid black;
+    padding: 2%;
+    width: 16%;
+    margin: 0%;
+}
+
+div#tres {
+    border: 1px solid black;
+    padding: 2%;
+    width: 16%;
+    margin: 0%;
+}
+
+div#cuatro {
+    border: 1px solid black;
+    padding: 2%;
+    width: 16%;
+    margin: 0%;
+}
+
+
+
+h1.texto{
+    font-family: "Nunito", sans-serif;
+    font-weight: 1000;
+    font-size: 100%;
+}
+
+li.textolista{
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 80%;
+}
+
+p.texto{
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 70%;
+}
+
+p.textoo{
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 70%;
+}
+
+
+.footerpadre {
+    display: flex;
+    max-width: 100%;
+    padding: 3%;
+    margin-top: 1%;
+    border-top: 1px solid black;
+}
+
+.footerpadre2 {
+    border-top: 1px solid black;
+    display: flex;
+    max-width: 100%;
+    padding: 3%;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.hijos {
-font-family: "Nunito", sans-serif;
-font-weight: 1000;
+.footerhijo {
+    width: 50%;
 }
 
-div#uno {
-    font-family: "Nunito", sans-serif;
-    font-weight: 1000;
-    border: 1px solid black;
-    padding: 2%;
-}
-
-div#dos {
-    font-family: "Nunito", sans-serif;
-font-weight: 1000;
-border: 1px solid black;
-padding: 2%;
-}
-
-div#tres {
-    font-family: "Nunito", sans-serif;
-font-weight: 1000;
-border: 1px solid black;
-padding: 2%;
-}
-
-div#cuatro {
-    font-family: "Nunito", sans-serif;
-font-weight: 1000;
-border: 1px solid black;
-padding: 2%;
+div#footer2 {
+    margin-left: 1%;
+    border-left: 1px solid black;
+    padding-left: 1%;
 }
 
 
@@ -623,49 +679,52 @@ footer.footerr {
 
 @media screen and (min-height: 823px) {
 
-
-    .padre {
-        display: flex;
-        width: 100wv;
-        align-items: center;
-        padding: 5%;
-        flex-wrap:  wrap;
-        align-content: center;
-    }
-    
-    .hijos {
-    font-family: "Nunito", sans-serif;
-    font-weight: 1000;
-    }
-    
     div#uno {
-        font-family: "Nunito", sans-serif;
-        font-weight: 1000;
         border: 1px solid black;
         padding: 2%;
+        margin: 0%;
+        width: 100%;
+    }
 
-    }
-    
     div#dos {
-        font-family: "Nunito", sans-serif;
-    font-weight: 1000;
-    border: 1px solid black;
-    padding: 2%;
+        border: 1px solid black;
+        padding: 2%;
+        margin: 0%;
+        width: 100%;
     }
-    
+
     div#tres {
-        font-family: "Nunito", sans-serif;
-    font-weight: 1000;
-    border: 1px solid black;
-    padding: 2%;
+        border: 1px solid black;
+        padding: 2%;
+        margin: 0%;
+        width: 100%;
     }
-    
+
     div#cuatro {
-        font-family: "Nunito", sans-serif;
-    font-weight: 1000;
-    border: 1px solid black;
-    padding: 2%;
+        border: 0px solid black;
+        padding: 2%;
+        margin: 0%;
+        width: 100%;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
     }
+
+    .footerhijo {
+        width: 100%;
+    }
+
+    div#footer2 {
+        margin-left: 1%;
+        border-left: 1px solid black;
+        padding-left: 12%;
+    }
+
+    p.textoo {
+        font-family: "Nunito", sans-serif;
+        font-weight: 700;
+        font-size: 60%;
+    }
+
 
     li {
         font-size: 74%;
@@ -733,33 +792,4 @@ footer.footerr {
             padding: 3%;
         }
      
-}
-    
-
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
-    width: 100%;
-    border-radius: 5cm;
 }
