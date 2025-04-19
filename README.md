@@ -1,1 +1,1 @@
-DEMO: samsungcelulares.netlify.app
+DEMO: https://samsungcelulares.netlify.app
